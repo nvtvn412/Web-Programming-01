@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: #32c2b3;
+}
+header{
+    font-weight: bold;
+    font-style: italic;    
+    justify-content: space-between;
+}
+
+@media (min-width:700px) {
+    header {
+        display: flex;
+    }
+}
+.container {
+    width: 80%;
+    margin: 0 auto;        
+    margin-top: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.label{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+    padding: 5px;
+    margin-top: 10px;
+}
+.rightTab {
+    width: 48%;
+    display: inline-block;
+    text-align: left;
+}
+.dropdown, .textInput {
+    margin-top: 15px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+input:invalid {
+    border-bottom-color: red;
+}
+input, input:valid {
+    border-color: #ccc;
+}
+table, th, td {
+    border: 1px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+table {
+    display: inline-block;
+}
+.textInput {
+    width: 50%;
+}
