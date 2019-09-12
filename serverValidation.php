@@ -1,5 +1,5 @@
 <?php 
-	include "partials/header.html";
+	include 'partials/header.html';
 ?>
 <?php 
         @session_start();
@@ -43,8 +43,8 @@
         } else {
         }
 ?>
-<div class="container">
-    <table class='center'>        
+<div class="container container-horizontal">
+    <table class="center">        
         <tr>
             <th>X</th>
             <th>Y</th>
@@ -60,8 +60,8 @@
             </tr>
         <?php }?>
     </table>
-<div>
-<a href="/index.php">Back</a>
+    <a href="/index.html">Make New Request</a>
+</div>
 <?php 
-	include "partials/footer.html";
+	include 'partials/footer.html';
 ?>

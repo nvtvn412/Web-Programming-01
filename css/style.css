@@ -1,11 +1,13 @@
 body{
     text-align: center;
     background-color: #32c2b3;
+    color: #202622;
 }
 header{
     font-weight: bold;
     font-style: italic;    
-    justify-content: space-between;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 @media (min-width:700px) {
@@ -14,25 +16,77 @@ header{
     }
 }
 .container {
+    display: flex;
     width: 80%;
     margin: 0 auto;        
     margin-top: 10px;
-    padding: 10px;
-    background-color: whitesmoke;
+    padding: 0px;
+    background-color: white;
     text-align: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25), 0px 5px 5px rgba(0, 0, 0, 0.25);
+    color: #505050;
+    justify-content: space-around;
+}
+.container.container-horizontal {
+    flex-direction: column;
+}
+.container-row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;    
+    
+}
+#myform{
+    background-color: #8db9e0;    
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    width: 50%;
+}
+#myform * {
+    font-size : 26px;
+}
+.container-element {
+    width: 60%;
+}
+img {
+    width: 100%;    
+    border-radius: inherit;
+}
+#areas-img {
+    display: none;
+}
+button {
+    border: none;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;    
+    font-weight: bold;
+    color: #505050;
+    background-color: #f8f8f8;
+}
+button:active {
+    transform: scale(0.95);
+}
+button:focus {
+    outline: none;
+}
+.rowTab {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .label{
     display: inline-block;
-    width: 40%;
+    width: 30%;
     text-align: right;
     vertical-align: top;
     padding: 5px;
     margin-top: 10px;
 }
 .rightTab {
-    width: 48%;
+    width: 50%;
     display: inline-block;
-    text-align: left;
+    text-align: left;    
+    line-height: 30px;
 }
 .dropdown, .textInput {
     margin-top: 15px;
@@ -57,4 +111,11 @@ table {
 }
 .textInput {
     width: 50%;
+}
+table.center {
+    margin: 10px auto;
+}
+.footer {
+    padding: 5px;
+    font-size: 30px;
 }

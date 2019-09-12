@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Programming 01</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="src/favicon.ico"/>
+</head>
+<body>
+    <header class="container">
+            <a href="https://vk.com/envyte"><p>Нгуен Винь Тхинь</p></a>
+            <p>Группа P3200</p>
+            <p>Вариант 200015</p>
+    </header>
+    <script src="scripts/clientValidation.js"></script>
+
+    <div class="container container-horizontal">            
+        <div class="container-row">
+            <img src="src/task.png" alt="" id="task-img">
+        </div>
+        <div class="container-row">
+            <form action="serverValidation.php" method="POST" id="myform">            
+                <div class="rowTab">
+                    <div class="label">
+                        <label for="valueX">X:</label>
+                    </div>
+                    <div class="rightTab dropdown">
+                        <select name="valueX" value="0">
+                            <option value="-4">-4</option>
+                            <option value="-3">-3</option>
+                            <option value="-2">-2</option>
+                            <option value="-1">-1</option>
+                            <option value="0" selected="selected">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div> 
+                <div class="rowTab">
+                    <div class="label">
+                        <label for="valueY">Y:</label>
+                    </div>
+                    <div class="rightTab">
+                        <input 
+                            type="text" 
+                            name="valueY" 
+                            placeholder="-5..3" 
+                            maxlength=9
+                            class="textInput">
+                    </div>
+                </div> 
+                <div class="rowTab">
+                    <div class="label">
+                        <label for="valueR">R:</label>
+                    </div>
+                    <div class="rightTab">
+                        <ul>
+                            <li><input type="radio" name="valueR" value="1" checked> 1</li>
+                            <li><input type="radio" name="valueR" value="2"> 2</li>
+                            <li><input type="radio" name="valueR" value="3"> 3</li>
+                            <li><input type="radio" name="valueR" value="4"> 4</li>
+                            <li><input type="radio" name="valueR" value="5"> 5</li>
+                        </ul>                        
+                    </div>
+                </div>        
+                <button type="submit">Check</button> 
+            </form>
+            <div class="container-element">
+                <img src="src/areas.png" alt="">
+            </div>            
+        </div>
+    </div>  
+    <footer class="container footer">
+        Copyright © 2019, Nguyen Vinh Thinh. All rights reserved.
+    </footer>
+</body>
+</html>
+
