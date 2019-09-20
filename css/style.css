@@ -52,9 +52,6 @@ img {
     width: 100%;    
     border-radius: inherit;
 }
-#areas-img {
-    display: none;
-}
 button {
     border: none;
     padding: 10px 10px;
@@ -74,7 +71,7 @@ button:focus {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.label{
+.rowTab > .label{
     display: inline-block;
     width: 30%;
     text-align: right;
@@ -82,7 +79,7 @@ button:focus {
     padding: 5px;
     margin-top: 10px;
 }
-.rightTab {
+.rowTab > .rightTab {
     width: 50%;
     display: inline-block;
     text-align: left;    
