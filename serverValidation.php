@@ -60,7 +60,7 @@
             </tr>
         <?php }?>
     </table>
-    <a href="/index.html">Make New Request</a>
+    <a href="./index.html">Make New Request</a>
 </div>
 <?php 
 	include 'partials/footer.html';
