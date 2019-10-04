@@ -60,6 +60,7 @@
             </tr>
         <?php }?>
     </table>
+    <br>
     <a href="./index.html">Make New Request</a>
 </div>
 <?php 

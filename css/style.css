@@ -102,6 +102,7 @@ input, input:valid {
 
 table, th, td {
   border: 1px solid black;
+  font-size: 26px;
   padding-left: 2px;
   padding-right: 2px; }
 
