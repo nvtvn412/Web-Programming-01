@@ -10,7 +10,10 @@ header {
   text-transform: uppercase; }
 
 header > * {
-  display: inline-block; }
+  display: inline-block; 
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
 footer {
   padding: 5px;
